@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('show-starter');
+  this.route('team');
 });
 
 export default Router;
